@@ -17,6 +17,7 @@ UI 组件库：Vant 4 (非常适合移动端 H5 体验的轻量级组件库)
 网络请求：Axios (常规接口) + 原生 Fetch API (处理 SSE 流式响应)。
 
 后端 (travel-java)
+
 核心框架：Java + Spring Boot (提供 RESTful API)
 持久层框架：MyBatis-Plus (极大简化了对 MySQL 的增删改查)
 数据库：MySQL (存储用户数据及未来可能保存的行程记录)
