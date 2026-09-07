@@ -1,0 +1,194 @@
+﻿[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------< com.ggs:travel-java >-------------------------
+[INFO] Building travel-java 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.5.0:clean (default-clean) @ travel-java ---
+[INFO] Deleting D:\ai-java\server\travel-java\target
+[INFO] 
+[INFO] --- resources:3.5.0:resources (default-resources) @ travel-java ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.15.0:compile (default-compile) @ travel-java ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 9 source files with javac [debug parameters release 17] to target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/ai-java/server/travel-java/src/main/java/com/ggs/traveljava/controller/TravelController.java:[40,18] 批注值必须采用 'name=value' 格式
+[ERROR] /D:/ai-java/server/travel-java/src/main/java/com/ggs/traveljava/vo/Result.java:[19,15] 找不到符号
+  符号:   方法 setSuccess(boolean)
+  位置: 类型为com.ggs.traveljava.vo.Result<T>的变量 result
+[ERROR] /D:/ai-java/server/travel-java/src/main/java/com/ggs/traveljava/vo/Result.java:[20,15] 找不到符号
+  符号:   方法 setCode(int)
+  位置: 类型为com.ggs.traveljava.vo.Result<T>的变量 result
+[ERROR] /D:/ai-java/server/travel-java/src/main/java/com/ggs/traveljava/vo/Result.java:[21,15] 找不到符号
+  符号:   方法 setMsg(java.lang.String)
+  位置: 类型为com.ggs.traveljava.vo.Result<T>的变量 result
+[ERROR] /D:/ai-java/server/travel-java/src/main/java/com/ggs/traveljava/vo/Result.java:[27,15] 找不到符号
+  符号:   方法 setData(T)
+  位置: 类型为com.ggs.traveljava.vo.Result<T>的变量 result
+[ERROR] /D:/ai-java/server/travel-java/src/main/java/com/ggs/traveljava/vo/Result.java:[32,15] 找不到符号
+  符号:   方法 setSuccess(boolean)
+  位置: 类型为com.ggs.traveljava.vo.Result<T>的变量 result
+[ERROR] /D:/ai-java/server/travel-java/src/main/java/com/ggs/traveljava/vo/Result.java:[33,15] 找不到符号
+  符号:   方法 setCode(int)
+  位置: 类型为com.ggs.traveljava.vo.Result<T>的变量 result
+[ERROR] /D:/ai-java/server/travel-java/src/main/java/com/ggs/traveljava/vo/Result.java:[34,15] 找不到符号
+  符号:   方法 setMsg(java.lang.String)
+  位置: 类型为com.ggs.traveljava.vo.Result<T>的变量 result
+[ERROR] /D:/ai-java/server/travel-java/src/main/java/com/ggs/traveljava/vo/Result.java:[40,15] 找不到符号
+  符号:   方法 setCode(java.lang.Integer)
+  位置: 类型为com.ggs.traveljava.vo.Result<T>的变量 result
+[ERROR] /D:/ai-java/server/travel-java/src/main/java/com/ggs/traveljava/vo/Result.java:[41,15] 找不到符号
+  符号:   方法 setMsg(java.lang.String)
+  位置: 类型为com.ggs.traveljava.vo.Result<T>的变量 result
+[ERROR] /D:/ai-java/server/travel-java/src/main/java/com/ggs/traveljava/vo/Result.java:[47,15] 找不到符号
+  符号:   方法 setSuccess(boolean)
+  位置: 类型为com.ggs.traveljava.vo.Result<T>的变量 result
+[ERROR] /D:/ai-java/server/travel-java/src/main/java/com/ggs/traveljava/vo/Result.java:[48,15] 找不到符号
+  符号:   方法 setError(java.lang.String)
+  位置: 类型为com.ggs.traveljava.vo.Result<T>的变量 result
+[ERROR] /D:/ai-java/server/travel-java/src/main/java/com/ggs/traveljava/vo/Result.java:[49,15] 找不到符号
+  符号:   方法 setResponse(java.lang.String)
+  位置: 类型为com.ggs.traveljava.vo.Result<T>的变量 result
+[ERROR] /D:/ai-java/server/travel-java/src/main/java/com/ggs/traveljava/controller/TravelController.java:[34,44] 找不到符号
+  符号:   方法 getCity()
+  位置: 类型为@jakarta.validation.Valid com.ggs.traveljava.dto.TravelRequestDTO的变量 travelRequestDTO
+[ERROR] /D:/ai-java/server/travel-java/src/main/java/com/ggs/traveljava/controller/TravelController.java:[35,44] 找不到符号
+  符号:   方法 getDays()
+  位置: 类型为@jakarta.validation.Valid com.ggs.traveljava.dto.TravelRequestDTO的变量 travelRequestDTO
+[ERROR] /D:/ai-java/server/travel-java/src/main/java/com/ggs/traveljava/controller/TravelController.java:[36,44] 找不到符号
+  符号:   方法 getBudget()
+  位置: 类型为@jakarta.validation.Valid com.ggs.traveljava.dto.TravelRequestDTO的变量 travelRequestDTO
+[ERROR] /D:/ai-java/server/travel-java/src/main/java/com/ggs/traveljava/controller/TravelController.java:[37,87] 找不到符号
+  符号:   方法 getCity()
+  位置: 类型为@jakarta.validation.Valid com.ggs.traveljava.dto.TravelRequestDTO的变量 travelRequestDTO
+[ERROR] /D:/ai-java/server/travel-java/src/main/java/com/ggs/traveljava/controller/TravelController.java:[37,115] 找不到符号
+  符号:   方法 getDays()
+  位置: 类型为@jakarta.validation.Valid com.ggs.traveljava.dto.TravelRequestDTO的变量 travelRequestDTO
+[ERROR] /D:/ai-java/server/travel-java/src/main/java/com/ggs/traveljava/controller/TravelController.java:[37,143] 找不到符号
+  符号:   方法 getBudget()
+  位置: 类型为@jakarta.validation.Valid com.ggs.traveljava.dto.TravelRequestDTO的变量 travelRequestDTO
+[ERROR] /D:/ai-java/server/travel-java/src/main/java/com/ggs/traveljava/service/TravelService.java:[38,19] 找不到符号
+  符号:   方法 setSuccess(boolean)
+  位置: 类型为com.ggs.traveljava.vo.TravelRecommendVO的变量 result
+[ERROR] /D:/ai-java/server/travel-java/src/main/java/com/ggs/traveljava/service/TravelService.java:[39,19] 找不到符号
+  符号:   方法 setError(java.lang.String)
+  位置: 类型为com.ggs.traveljava.vo.TravelRecommendVO的变量 result
+[ERROR] /D:/ai-java/server/travel-java/src/main/java/com/ggs/traveljava/service/TravelService.java:[53,23] 找不到符号
+  符号:   方法 setSuccess(boolean)
+  位置: 类型为com.ggs.traveljava.vo.TravelRecommendVO的变量 result
+[ERROR] /D:/ai-java/server/travel-java/src/main/java/com/ggs/traveljava/service/TravelService.java:[54,23] 找不到符号
+  符号:   方法 setError(java.lang.String)
+  位置: 类型为com.ggs.traveljava.vo.TravelRecommendVO的变量 result
+[ERROR] /D:/ai-java/server/travel-java/src/main/java/com/ggs/traveljava/service/TravelService.java:[55,23] 找不到符号
+  符号:   方法 setRawResponse(java.lang.String)
+  位置: 类型为com.ggs.traveljava.vo.TravelRecommendVO的变量 result
+[ERROR] /D:/ai-java/server/travel-java/src/main/java/com/ggs/traveljava/service/TravelService.java:[58,19] 找不到符号
+  符号:   方法 setSuccess(boolean)
+  位置: 类型为com.ggs.traveljava.vo.TravelRecommendVO的变量 result
+[ERROR] /D:/ai-java/server/travel-java/src/main/java/com/ggs/traveljava/service/TravelService.java:[59,19] 找不到符号
+  符号:   方法 setError(java.lang.String)
+  位置: 类型为com.ggs.traveljava.vo.TravelRecommendVO的变量 result
+[ERROR] /D:/ai-java/server/travel-java/src/main/java/com/ggs/traveljava/service/TravelService.java:[60,19] 找不到符号
+  符号:   方法 setRawResponse(java.lang.String)
+  位置: 类型为com.ggs.traveljava.vo.TravelRecommendVO的变量 result
+[INFO] 27 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.849 s
+[INFO] Finished at: 2026-09-06T18:59:01+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.15.0:compile (default-compile) on project travel-java: Compilation failure: Compilation failure: 
+[ERROR] /D:/ai-java/server/travel-java/src/main/java/com/ggs/traveljava/controller/TravelController.java:[40,18] 批注值必须采用 'name=value' 格式
+[ERROR] /D:/ai-java/server/travel-java/src/main/java/com/ggs/traveljava/vo/Result.java:[19,15] 找不到符号
+[ERROR]   符号:   方法 setSuccess(boolean)
+[ERROR]   位置: 类型为com.ggs.traveljava.vo.Result<T>的变量 result
+[ERROR] /D:/ai-java/server/travel-java/src/main/java/com/ggs/traveljava/vo/Result.java:[20,15] 找不到符号
+[ERROR]   符号:   方法 setCode(int)
+[ERROR]   位置: 类型为com.ggs.traveljava.vo.Result<T>的变量 result
+[ERROR] /D:/ai-java/server/travel-java/src/main/java/com/ggs/traveljava/vo/Result.java:[21,15] 找不到符号
+[ERROR]   符号:   方法 setMsg(java.lang.String)
+[ERROR]   位置: 类型为com.ggs.traveljava.vo.Result<T>的变量 result
+[ERROR] /D:/ai-java/server/travel-java/src/main/java/com/ggs/traveljava/vo/Result.java:[27,15] 找不到符号
+[ERROR]   符号:   方法 setData(T)
+[ERROR]   位置: 类型为com.ggs.traveljava.vo.Result<T>的变量 result
+[ERROR] /D:/ai-java/server/travel-java/src/main/java/com/ggs/traveljava/vo/Result.java:[32,15] 找不到符号
+[ERROR]   符号:   方法 setSuccess(boolean)
+[ERROR]   位置: 类型为com.ggs.traveljava.vo.Result<T>的变量 result
+[ERROR] /D:/ai-java/server/travel-java/src/main/java/com/ggs/traveljava/vo/Result.java:[33,15] 找不到符号
+[ERROR]   符号:   方法 setCode(int)
+[ERROR]   位置: 类型为com.ggs.traveljava.vo.Result<T>的变量 result
+[ERROR] /D:/ai-java/server/travel-java/src/main/java/com/ggs/traveljava/vo/Result.java:[34,15] 找不到符号
+[ERROR]   符号:   方法 setMsg(java.lang.String)
+[ERROR]   位置: 类型为com.ggs.traveljava.vo.Result<T>的变量 result
+[ERROR] /D:/ai-java/server/travel-java/src/main/java/com/ggs/traveljava/vo/Result.java:[40,15] 找不到符号
+[ERROR]   符号:   方法 setCode(java.lang.Integer)
+[ERROR]   位置: 类型为com.ggs.traveljava.vo.Result<T>的变量 result
+[ERROR] /D:/ai-java/server/travel-java/src/main/java/com/ggs/traveljava/vo/Result.java:[41,15] 找不到符号
+[ERROR]   符号:   方法 setMsg(java.lang.String)
+[ERROR]   位置: 类型为com.ggs.traveljava.vo.Result<T>的变量 result
+[ERROR] /D:/ai-java/server/travel-java/src/main/java/com/ggs/traveljava/vo/Result.java:[47,15] 找不到符号
+[ERROR]   符号:   方法 setSuccess(boolean)
+[ERROR]   位置: 类型为com.ggs.traveljava.vo.Result<T>的变量 result
+[ERROR] /D:/ai-java/server/travel-java/src/main/java/com/ggs/traveljava/vo/Result.java:[48,15] 找不到符号
+[ERROR]   符号:   方法 setError(java.lang.String)
+[ERROR]   位置: 类型为com.ggs.traveljava.vo.Result<T>的变量 result
+[ERROR] /D:/ai-java/server/travel-java/src/main/java/com/ggs/traveljava/vo/Result.java:[49,15] 找不到符号
+[ERROR]   符号:   方法 setResponse(java.lang.String)
+[ERROR]   位置: 类型为com.ggs.traveljava.vo.Result<T>的变量 result
+[ERROR] /D:/ai-java/server/travel-java/src/main/java/com/ggs/traveljava/controller/TravelController.java:[34,44] 找不到符号
+[ERROR]   符号:   方法 getCity()
+[ERROR]   位置: 类型为@jakarta.validation.Valid com.ggs.traveljava.dto.TravelRequestDTO的变量 travelRequestDTO
+[ERROR] /D:/ai-java/server/travel-java/src/main/java/com/ggs/traveljava/controller/TravelController.java:[35,44] 找不到符号
+[ERROR]   符号:   方法 getDays()
+[ERROR]   位置: 类型为@jakarta.validation.Valid com.ggs.traveljava.dto.TravelRequestDTO的变量 travelRequestDTO
+[ERROR] /D:/ai-java/server/travel-java/src/main/java/com/ggs/traveljava/controller/TravelController.java:[36,44] 找不到符号
+[ERROR]   符号:   方法 getBudget()
+[ERROR]   位置: 类型为@jakarta.validation.Valid com.ggs.traveljava.dto.TravelRequestDTO的变量 travelRequestDTO
+[ERROR] /D:/ai-java/server/travel-java/src/main/java/com/ggs/traveljava/controller/TravelController.java:[37,87] 找不到符号
+[ERROR]   符号:   方法 getCity()
+[ERROR]   位置: 类型为@jakarta.validation.Valid com.ggs.traveljava.dto.TravelRequestDTO的变量 travelRequestDTO
+[ERROR] /D:/ai-java/server/travel-java/src/main/java/com/ggs/traveljava/controller/TravelController.java:[37,115] 找不到符号
+[ERROR]   符号:   方法 getDays()
+[ERROR]   位置: 类型为@jakarta.validation.Valid com.ggs.traveljava.dto.TravelRequestDTO的变量 travelRequestDTO
+[ERROR] /D:/ai-java/server/travel-java/src/main/java/com/ggs/traveljava/controller/TravelController.java:[37,143] 找不到符号
+[ERROR]   符号:   方法 getBudget()
+[ERROR]   位置: 类型为@jakarta.validation.Valid com.ggs.traveljava.dto.TravelRequestDTO的变量 travelRequestDTO
+[ERROR] /D:/ai-java/server/travel-java/src/main/java/com/ggs/traveljava/service/TravelService.java:[38,19] 找不到符号
+[ERROR]   符号:   方法 setSuccess(boolean)
+[ERROR]   位置: 类型为com.ggs.traveljava.vo.TravelRecommendVO的变量 result
+[ERROR] /D:/ai-java/server/travel-java/src/main/java/com/ggs/traveljava/service/TravelService.java:[39,19] 找不到符号
+[ERROR]   符号:   方法 setError(java.lang.String)
+[ERROR]   位置: 类型为com.ggs.traveljava.vo.TravelRecommendVO的变量 result
+[ERROR] /D:/ai-java/server/travel-java/src/main/java/com/ggs/traveljava/service/TravelService.java:[53,23] 找不到符号
+[ERROR]   符号:   方法 setSuccess(boolean)
+[ERROR]   位置: 类型为com.ggs.traveljava.vo.TravelRecommendVO的变量 result
+[ERROR] /D:/ai-java/server/travel-java/src/main/java/com/ggs/traveljava/service/TravelService.java:[54,23] 找不到符号
+[ERROR]   符号:   方法 setError(java.lang.String)
+[ERROR]   位置: 类型为com.ggs.traveljava.vo.TravelRecommendVO的变量 result
+[ERROR] /D:/ai-java/server/travel-java/src/main/java/com/ggs/traveljava/service/TravelService.java:[55,23] 找不到符号
+[ERROR]   符号:   方法 setRawResponse(java.lang.String)
+[ERROR]   位置: 类型为com.ggs.traveljava.vo.TravelRecommendVO的变量 result
+[ERROR] /D:/ai-java/server/travel-java/src/main/java/com/ggs/traveljava/service/TravelService.java:[58,19] 找不到符号
+[ERROR]   符号:   方法 setSuccess(boolean)
+[ERROR]   位置: 类型为com.ggs.traveljava.vo.TravelRecommendVO的变量 result
+[ERROR] /D:/ai-java/server/travel-java/src/main/java/com/ggs/traveljava/service/TravelService.java:[59,19] 找不到符号
+[ERROR]   符号:   方法 setError(java.lang.String)
+[ERROR]   位置: 类型为com.ggs.traveljava.vo.TravelRecommendVO的变量 result
+[ERROR] /D:/ai-java/server/travel-java/src/main/java/com/ggs/traveljava/service/TravelService.java:[60,19] 找不到符号
+[ERROR]   符号:   方法 setRawResponse(java.lang.String)
+[ERROR]   位置: 类型为com.ggs.traveljava.vo.TravelRecommendVO的变量 result
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
